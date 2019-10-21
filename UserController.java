@@ -21,6 +21,10 @@ public class UserController {
 		return;
 	}
 
+    public void test(){
+        System.out.println("test");
+    }
+
     /**
      * 展示用户管理界面。
      *
