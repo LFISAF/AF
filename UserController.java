@@ -16,6 +16,10 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+	
+	public void method(){
+		return;
+	}
 
     /**
      * 展示用户管理界面。
