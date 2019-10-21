@@ -17,6 +17,10 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    public void test(){
+        System.out.println("test");
+    }
+
     /**
      * 展示用户管理界面。
      *
