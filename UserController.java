@@ -18,6 +18,7 @@ public class UserController {
     private UserService userService;
 	
 	public void method(){
+		System.out.print();
         System.out.println("Hello");
 		return;
 	}
